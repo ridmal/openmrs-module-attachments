@@ -1,9 +1,5 @@
 package org.openmrs.module.attachments.rest;
 
-import static org.junit.Assert.assertEquals;
-
-import java.io.IOException;
-
 import org.apache.commons.beanutils.PropertyUtils;
 import org.junit.After;
 import org.junit.Before;
@@ -14,6 +10,10 @@ import org.openmrs.module.attachments.AttachmentsConstants;
 import org.openmrs.module.attachments.obs.TestHelper;
 import org.openmrs.module.webservices.rest.web.v1_0.controller.MainResourceControllerTest;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.io.IOException;
+
+import static org.junit.Assert.assertEquals;
 
 public class AttachmentController2_0Test extends MainResourceControllerTest {
 	
